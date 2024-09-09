@@ -18,11 +18,6 @@ import xss from "xss-clean";
 // routes are implemented in routes/index.js
 
 dotenv.config({ path: "./config.env" });
-
-// if (process.env.NODE_ENV === 'development') {
-//   // فايدتها انها بتطبع الركوستات والحالة بتاعتها ف الكونسول
-//   app.use(morgan('dev'));
-// }
 const app = express();
 
 app.use(cors());
@@ -33,7 +28,7 @@ app.use(compression());
 app.use(bodyParser.json({ limit: "1mb", extended: true }));
 app.use(bodyParser.urlencoded({ limit: "1mb", extended: true }));
 
-// To remove data using these defaults: عشان لو جاي داتا علي اساس انه اوبجكت او مونجو اوبريتور ف دا هيبوظ الدنيا وممكن يخلي الهاكر يدخل علي اي ايميل بيماتش مع الباسورد مثلا
+// To remove data using these defaults:
 app.use(mongoSanitize());
 app.use(xss()); // to clean request inputs from any html content
 
