@@ -18,4 +18,4 @@ const departmentsSchema = new Schema(
   }
 );
 
-export const departmentsModel = model('Departments', departmentsSchema);
+export const departmentsModel = model('Department', departmentsSchema);
