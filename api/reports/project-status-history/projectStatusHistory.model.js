@@ -2,13 +2,14 @@ import { Schema, model } from 'mongoose';
 
 const projectStatusHistorySchema = new Schema(
   {
-    name: {
-      type: String,
-      required: [true, 'department must have a name'],
+    projectId: {
+      type: Schema.Types.ObjectId,
+      ref: 'project',
+      required: true,
     },
-    code: {
+    status: {
       type: String,
-      required: [true, 'department must have a code'],
+      required: true,
     },
   },
   {
