@@ -1,4 +1,4 @@
-import { createHandler, deleteHandler, getAllHandler, getOneHandler, updateHandler } from "../../../utils/crud-handlers";
+import { createHandler, deleteHandler, getAllHandler, getOneHandler, updateHandler } from "../../utils/crud-handlers";
 import { departmentsModel } from "./departments.model";
 
 export const getAll = getAllHandler(departmentsModel);

@@ -40,4 +40,4 @@ const structureScopeSchema = new Schema(
 );
 
 
-export const structureScopeModel = model('structureScope', structureScopeSchema);
+export const structureScopeModel = model('StructureScope', structureScopeSchema);

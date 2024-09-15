@@ -1,6 +1,6 @@
 import { Router } from 'express';
 
-import { accessAllowedTo, tokenProtection } from '../../../controllers/auth';
+import { accessAllowedTo, tokenProtection } from '../../controllers/auth';
 
 import { create, getAll, getOne, remove, update } from './departments.controller';
 
