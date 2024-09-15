@@ -14,4 +14,4 @@ const supervisionOptionsSchema = new Schema(
   }
 );
 
-export const supervisionOptionsModel = model('SupervisionOptions', supervisionOptionsSchema);
+export const supervisionOptionsModel = model('SupervisionOption', supervisionOptionsSchema);

@@ -14,4 +14,4 @@ const gsasOptionsSchema = new Schema(
   }
 );
 
-export const gsasOptionsModel = model('GsasOptions', gsasOptionsSchema);
+export const gsasOptionsModel = model('GsasOption', gsasOptionsSchema);

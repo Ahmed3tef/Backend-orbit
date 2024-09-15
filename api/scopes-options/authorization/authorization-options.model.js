@@ -14,4 +14,4 @@ const authorizationOptionsSchema = new Schema(
   }
 );
 
-export const authorizationOptionsModel = model('AuthorizationOptions', authorizationOptionsSchema);
+export const authorizationOptionsModel = model('AuthorizationOption', authorizationOptionsSchema);

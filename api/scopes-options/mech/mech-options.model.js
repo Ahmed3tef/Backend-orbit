@@ -14,4 +14,4 @@ const mechOptionsSchema = new Schema(
   }
 );
 
-export const mechOptionsModel = model('MechOptions', mechOptionsSchema);
+export const mechOptionsModel = model('MechOption', mechOptionsSchema);

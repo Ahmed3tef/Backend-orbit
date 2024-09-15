@@ -3,11 +3,11 @@ import { electricalOptionsModel } from "./electrical-options.model";
 
 export const getAll = getAllHandler(electricalOptionsModel);
 
-export const getOne = getOneHandler(electricalOptionsModel, 'ElectricalOptions');
+export const getOne = getOneHandler(electricalOptionsModel, 'ElectricalOption');
 
 // validation on creation on validation file.
 export const create = createHandler(electricalOptionsModel);
 
-export const update = updateHandler(electricalOptionsModel, 'ElectricalOptions');
+export const update = updateHandler(electricalOptionsModel, 'ElectricalOption');
 
-export const remove = deleteHandler(electricalOptionsModel, 'ElectricalOptions');
+export const remove = deleteHandler(electricalOptionsModel, 'ElectricalOption');

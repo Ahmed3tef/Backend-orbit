@@ -14,4 +14,4 @@ const tenderOptionsSchema = new Schema(
   }
 );
 
-export const tenderOptionsModel = model('TenderOptions', tenderOptionsSchema);
+export const tenderOptionsModel = model('TenderOption', tenderOptionsSchema);

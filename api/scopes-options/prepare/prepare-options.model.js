@@ -14,4 +14,4 @@ const prepareOptionsSchema = new Schema(
   }
 );
 
-export const prepareOptionsModel = model('PrepareOptions', prepareOptionsSchema);
+export const prepareOptionsModel = model('PrepareOption', prepareOptionsSchema);

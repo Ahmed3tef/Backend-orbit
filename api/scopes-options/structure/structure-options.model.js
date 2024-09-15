@@ -14,4 +14,4 @@ const structureOptionsSchema = new Schema(
   }
 );
 
-export const structureOptionsModel = model('StructureOptions', structureOptionsSchema);
+export const structureOptionsModel = model('StructureOption', structureOptionsSchema);

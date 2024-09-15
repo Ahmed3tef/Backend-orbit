@@ -14,4 +14,4 @@ const archOptionsSchema = new Schema(
   }
 );
 
-export const archOptionsModel = model('ArchOptions', archOptionsSchema);
+export const archOptionsModel = model('ArchOption', archOptionsSchema);

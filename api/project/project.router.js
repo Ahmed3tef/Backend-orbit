@@ -11,16 +11,14 @@ router.use(tokenProtection, accessAllowedTo('admin','user'));
 router
   .route('/')
   .get(getAll)
-  .post(productWishlistValidation, create);
+  .post( create);
 
 router
   .route('/:id')
   .get(getOne)
   .patch(
-    updateSubCategoryValidation,
     update
   )
   .delete(
-    deleteSubCategoryValidation,
     remove
   );

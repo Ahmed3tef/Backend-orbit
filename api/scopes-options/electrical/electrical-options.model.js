@@ -14,4 +14,4 @@ const electricalOptionsSchema = new Schema(
   }
 );
 
-export const electricalOptionsModel = model('ElectricalOptions', electricalOptionsSchema);
+export const electricalOptionsModel = model('ElectricalOption', electricalOptionsSchema);

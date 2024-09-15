@@ -14,4 +14,4 @@ const civilOptionsSchema = new Schema(
   }
 );
 
-export const civilOptionsModel = model('CivilOptions', civilOptionsSchema);
+export const civilOptionsModel = model('CivilOption', civilOptionsSchema);

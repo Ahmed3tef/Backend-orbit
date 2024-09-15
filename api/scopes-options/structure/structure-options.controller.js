@@ -4,11 +4,11 @@ import { structureOptionsModel } from "./structure-options.model";
 
 export const getAll = getAllHandler(structureOptionsModel);
 
-export const getOne = getOneHandler(structureOptionsModel, 'StructureOptions');
+export const getOne = getOneHandler(structureOptionsModel, 'StructureOption');
 
 // validation on creation on validation file.
 export const create = createHandler(structureOptionsModel);
 
-export const update = updateHandler(structureOptionsModel, 'StructureOptions');
+export const update = updateHandler(structureOptionsModel, 'StructureOption');
 
-export const remove = deleteHandler(structureOptionsModel, 'StructureOptions');
+export const remove = deleteHandler(structureOptionsModel, 'StructureOption');
